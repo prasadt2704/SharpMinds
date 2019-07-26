@@ -1,0 +1,69 @@
+.btn{
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.head{
+    padding-top: 8%;
+}
+
+hr{
+    margin: 10px 10px 10px 10px;
+}
+.final{
+    padding-bottom: 50px;
+}
+.title{
+    padding-top:5px;
+}
+.set{
+    height: 30px;
+    padding-top: 10px;
+}
+.timer{
+    float: right;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.option{
+    background-color:#cadaee;
+    font-size:20px;
+    padding:10px;
+    margin:3px;
+}
+
+.check{
+    padding-left: 20px;
+}
+#quiz .options input[type=checkbox] {
+        height:22px;
+        width:22px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.result-question{
+    background-color:#eee;
+    margin:4px;
+    padding:6px;
+}
+
+@media only screen and (max-width: 480px) {
+    h1,.h1{
+        font-size:22px;
+    }
+    h2,.h2{
+        font-size:20px;
+    }
+    h3,.h3{
+        font-size:18px;
+    }
+    .option {
+        font-size: 16px;
+        padding: 6px;
+    }
+}

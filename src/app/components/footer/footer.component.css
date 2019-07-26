@@ -1,0 +1,22 @@
+.footer{
+    z-index: -1;
+    padding-top: 9px;
+    background-color: rgba(36, 29, 29, 0.26);
+    position: fixed;
+    width: 100%;
+    font-family: cursive;
+    padding-bottom: 25px;
+}
+
+.button{
+    padding-top: 10px;
+    float: right;
+}
+.button>li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}

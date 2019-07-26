@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+<base href="/">
+<img id="i1" src="assets/1.png"/>
+<div id="signin" class="container-fluid">
+  <div class="card card-container">
+      <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+      <p id="profile-name" class="profile-name-card"></p>
+      <form class="form-signin">
+          <span id="reauth-email" class="reauth-email"></span>
+          <!--Login-->
+          <input [(ngModel)]="loginUserData.email" name="email" type="email" id="inputlEmail" class="form-control" placeholder="Email address" required autofocus>
+          <input [(ngModel)]="loginUserData.password" name="password" type="password" id="inputlPassword" class="form-control" placeholder="Password" required>
+          <div id="remember" class="checkbox">
+              <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+              </label>
+          </div>
+          <button id="b1" (click)="loginUser()" class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign In</button>
+          <label id="or">OR</label><br>
+          <a class="nav-link" routerLink="/register" routerLinkActive="active" >Register !!</a><br>
+      </form><!-- /form -->
+      <a href="#" class="forgot-password">
+          Forgot the password?
+      </a>
+  </div><!-- /card-container -->
+</div><!-- /container -->
