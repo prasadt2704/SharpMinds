@@ -112,6 +112,7 @@ export class QuizComponent implements OnInit {
     question.options.forEach((x) => { if (x.isAnswer === true) this.cans = x.name ; });
     return this.cans;
   }
+
   onSubmit() {
     let answers = [];
     this.quiz.questions.forEach(x => answers.push({ 'quizId': this.quiz.id, 'questionId': x.id, 'answered': x.answered }));

@@ -1,5 +1,4 @@
 <app-navbar></app-navbar>
-<base href="/">
 <img id="i1" src="assets/1.png"/>
 <div id="signin" class="container-fluid">
   <div class="card card-container">
@@ -8,8 +7,8 @@
       <form class="form-signin">
           <span id="reauth-email" class="reauth-email"></span>
           <!--Login-->
-          <input [(ngModel)]="loginUserData.email" name="email" type="email" id="inputlEmail" class="form-control" placeholder="Email address" required autofocus>
-          <input [(ngModel)]="loginUserData.password" name="password" type="password" id="inputlPassword" class="form-control" placeholder="Password" required>
+          <input [(ngModel)]="loginUserData.email" name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required #inputEmail="ngModel" autofocus>
+          <input [(ngModel)]="loginUserData.password" name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required #inputPassword="ngModel">
           <div id="remember" class="checkbox">
               <label>
                   <input type="checkbox" value="remember-me"> Remember me

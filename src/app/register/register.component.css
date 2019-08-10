@@ -1,7 +1,21 @@
+#i1{
+    width: 1366px; 
+    height: 904px; 
+    max-height: 150%;
+    max-width: 100%;
+    z-index: -999999;
+    position: absolute;
+    top: -245.167px;
+}
+
+.container-fluid{
+    overflow-y: hidden;
+}
 .card-container.card {
     margin-top: 150px;
     max-width: 400px;
     padding: 40px 40px;
+    margin-left: 20px;
 }
 
 .btn {

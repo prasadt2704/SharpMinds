@@ -11,7 +11,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { QuizComponent } from './quiz/quiz.component';
 
-import { AuthService } from './auth.service';
+import { AuthService } from './LR_services/auth.service';
+
 @NgModule({
   declarations: [
     AppComponent,

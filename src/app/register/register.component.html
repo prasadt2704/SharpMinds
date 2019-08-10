@@ -1,13 +1,13 @@
 <app-navbar></app-navbar>
-<div id="signup" class="container">
+<img id="i1" src="assets/register.jpeg"/>
+<div id="signup" class="container-fluid">
     
     <div class="card card-container col-md-6">
         <form class="form-signup">
-            <input [(ngModel)]="registerUserData.First" name="First" type="text" id="inputFirstName" class="form-control" placeholder="First Name" required autofocus><br>
-            <input [(ngModel)]="registerUserData.Last" name="Last" type="text" id="inputLastName" class="form-control" placeholder="Last Name" required ><br> 
+            <input [(ngModel)]="registerUserData.first_name" name="First" type="text" id="inputFirstName" class="form-control" placeholder="First Name" required autofocus><br>
+            <input [(ngModel)]="registerUserData.last_name" name="Last" type="text" id="inputLastName" class="form-control" placeholder="Last Name" required ><br> 
             <input [(ngModel)]="registerUserData.email" name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required ><br>
             <input [(ngModel)]="registerUserData.password" name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required><br>
-            <input [(ngModel)]="registerUserData.date" name="date" type="date" id="inputDate" class="form-control" required><br>
             <button (click)="registerUser()" class="btn btn-lg btn-block btn-signup" type="submit">Register</button>
         </form> <!-- /form -->
     </div><!-- /card-container -->

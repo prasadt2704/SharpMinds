@@ -2,7 +2,7 @@
     <div class="content">
         <div class="btn-controls">
             <div class="btn-box-row row-fluid">
-                <a routerLink="/quiz" routerLinkActive="active" class="btn-box big span4" target="_blank">
+                <a routerLink="/quiz" routerLinkActive="active" (click)="onClick()" class="btn-box big span4" target="_blank">
                     <i class="far fa-edit" style="font-size:36px"></i>
                     <b>Take Test</b>
                 </a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -12,7 +12,7 @@
                 </a>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="btn-box-row row-fluid">
-                    <a href="#" class="btn-box big span4"><i class="fas fa-bullhorn"></i><b>Announcements</b>
+                    <a routerLink="/notification" routerLinkActive="active" (click)="notify()" class="btn-box big span4"><i class="fas fa-bullhorn"></i><b>Announcements</b>
                     </a>&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="#" class="btn-box big span4"><i class="fas fa-book-open"></i><b>Library Books</b>
                         </a>&nbsp;&nbsp;&nbsp;&nbsp;

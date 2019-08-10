@@ -4,12 +4,12 @@ import { RouterModule,} from '@angular/router';
 import { ComponentsModule } from '../../components/components.module';
 import { AdminLayoutRoutingModule, routes } from './admin-layout-routing.module';
 import { AdminLayoutComponent } from './admin-layout.component';
-import { DashboardComponent } from 'src/app/dashboard/dashboard.component';
+import { AdminDashboardComponent } from '../../admin-dashboard/admin-dashboard.component';
 
 @NgModule({
   declarations: [
     AdminLayoutComponent,
-    DashboardComponent,
+    AdminDashboardComponent,
   ],
   imports: [
     RouterModule.forChild(routes),
