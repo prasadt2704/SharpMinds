@@ -17,10 +17,6 @@ export const routes: Routes = [
       { path: 'notifications',  component: NotificationsComponent },
     ]
   },
-  
-   /* { path: 'table-list',     component: TableListComponent },
-   
-    */
 ];
 
 @NgModule({

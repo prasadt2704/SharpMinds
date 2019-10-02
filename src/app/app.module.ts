@@ -12,6 +12,7 @@ import { RegisterComponent } from './register/register.component';
 import { QuizComponent } from './quiz/quiz.component';
 
 import { AuthService } from './LR_services/auth.service';
+import { TestDirective } from './test.directive';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AuthService } from './LR_services/auth.service';
     LoginComponent,
     RegisterComponent,
     QuizComponent,
+    TestDirective,
   ],
   imports: [
     BrowserModule,
